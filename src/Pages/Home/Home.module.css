@@ -5,6 +5,15 @@
   background-size: cover;
 }
 
+.homeLogo {
+  position: absolute;
+  width: 60%;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .seprator {
   position: absolute;
   bottom: 0;
