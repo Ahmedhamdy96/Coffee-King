@@ -1,0 +1,12 @@
+.sectionHome {
+  min-height: 100vh;
+  background-image: url("/src/imgs/coffee-parallax-2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.seprator {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
