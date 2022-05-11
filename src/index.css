@@ -1,0 +1,42 @@
+/* custom nav */
+* {
+  transition: all 0.3;
+}
+.nav-link {
+  color: #fff !important;
+}
+
+.navbar-light .navbar-toggler {
+  color: transparent !important;
+  border-color: none;
+}
+
+.navbar-toggler ~ .navbar-collapse.collapse.show {
+  position: relative;
+  z-index: 3000;
+  background-color: #a29070a3;
+  backdrop-filter: blur(3px);
+
+  border-radius: 10px;
+  padding-left: 10px;
+}
+
+.dropdown-menu.show {
+  background-color: #dac9ab;
+  margin-right: 10px;
+  box-shadow: 2px 0px 10px 0px rgb(68 68 68);
+  padding: 10px;
+}
+
+.dropdown-menu.show a:not(:last-child) {
+}
+
+.dropdown-menu.show a {
+  padding: 5px;
+  margin: 5px 0;
+  border-radius: 5px;
+}
+
+.dropdown-menu.show a:focus {
+  background-color: #ffe7bb;
+}
