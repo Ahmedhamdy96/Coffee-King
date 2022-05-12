@@ -1,0 +1,37 @@
+.left {
+  padding: 100px 0;
+}
+
+.left h2 {
+  font-weight: bold;
+}
+
+.left p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.left h3 {
+  color: #c0aa83;
+  margin-bottom: 20px;
+}
+.left .locations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.left .locations p {
+  flex-basis: 30%;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.right {
+  padding: 100px 0;
+  background-image: url("./../../imgs/map.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+}

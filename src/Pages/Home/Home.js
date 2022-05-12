@@ -7,6 +7,7 @@ import Navigation from "../../Components/Navigation/Navigation";
 import Btn from "../../Components/UI/Btn/Btn";
 import About from "../../Components/About/About";
 import RecentProducts from "../../Components/RecentProducts/RecentProducts";
+import DeliveryPoints from "../../Components/DeliveryPoints/DeliveryPoints";
 
 const Home = () => {
   return (
@@ -22,6 +23,7 @@ const Home = () => {
       </section>
       <About />
       <RecentProducts />
+      <DeliveryPoints />
     </Fragment>
   );
 };

@@ -1,7 +1,7 @@
 .sliderContainer {
   position: relative;
   /* background-color: pink; */
-  width: 1600px;
+  max-width: 1600px;
   margin: auto;
 }
 
