@@ -40,3 +40,7 @@
 .dropdown-menu.show a:focus {
   background-color: #ffe7bb;
 }
+
+.swiper {
+  position: relative;
+}

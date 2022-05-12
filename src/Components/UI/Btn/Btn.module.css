@@ -7,6 +7,10 @@
   border: 2px solid #c0aa83;
   transition: 0.3s;
   outline: none;
+
+  display: flex;
+
+  align-items: center;
 }
 
 .btn:hover {

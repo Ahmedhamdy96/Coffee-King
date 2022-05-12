@@ -1,0 +1,29 @@
+.sectionHeader {
+  text-align: center;
+  position: relative;
+  color: red;
+}
+
+.sectionHeader .backTitle {
+  font-weight: bold;
+  font-size: 150px;
+  position: relative;
+  color: #2e2e2e;
+}
+
+.sectionHeader .frontUp {
+  position: relative;
+  bottom: 170px;
+  font-weight: bold;
+  font-size: 20px;
+  font-weight: bold;
+  color: #c0aa83;
+}
+
+.sectionHeader .frontDown {
+  position: relative;
+  bottom: 180px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}

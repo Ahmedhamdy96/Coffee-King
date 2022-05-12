@@ -6,6 +6,7 @@ import style from "./Home.module.css";
 import Navigation from "../../Components/Navigation/Navigation";
 import Btn from "../../Components/UI/Btn/Btn";
 import About from "../../Components/About/About";
+import RecentProducts from "../../Components/RecentProducts/RecentProducts";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
         <img src={seprator} className={style.seprator} alt="seprator image" />
       </section>
       <About />
+      <RecentProducts />
     </Fragment>
   );
 };
