@@ -1,0 +1,23 @@
+.about {
+  background-image: url("./../../imgs/about-bg.png");
+  height: 350px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.h3 {
+  color: #c0aa83;
+  font-weight: bold;
+}
+
+.h2 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.p {
+  width: 90%;
+  line-height: 1.6;
+  margin: 20px 0;
+  font-size: 20px;
+}
