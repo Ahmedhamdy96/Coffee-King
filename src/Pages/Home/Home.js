@@ -8,6 +8,7 @@ import Btn from "../../Components/UI/Btn/Btn";
 import About from "../../Components/About/About";
 import RecentProducts from "../../Components/RecentProducts/RecentProducts";
 import DeliveryPoints from "../../Components/DeliveryPoints/DeliveryPoints";
+import BecomeDealer from "../../Components/BecomeDealer/BecomeDealer";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <About />
       <RecentProducts />
       <DeliveryPoints />
+      <BecomeDealer />
     </Fragment>
   );
 };

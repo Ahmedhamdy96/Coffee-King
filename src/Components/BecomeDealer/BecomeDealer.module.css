@@ -1,0 +1,48 @@
+.left {
+  padding: 100px 0;
+}
+
+.left p {
+  margin: 0;
+}
+
+.left p:first-child,
+.left p:last-child {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.left p:nth-child(2) {
+  color: #c0aa83;
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.right {
+  padding: 200px 0;
+}
+
+.right h2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.right p {
+  line-height: 1.7;
+}
+
+.right button {
+  display: inline-block;
+}
+
+.right button:first-of-type {
+  margin-right: 30px;
+  background-color: #222;
+  border-color: #222;
+}
+
+.right button:first-of-type:hover {
+  margin-right: 30px;
+  background-color: #fff;
+  border-color: #222;
+}
