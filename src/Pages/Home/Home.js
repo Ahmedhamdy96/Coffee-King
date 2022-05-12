@@ -10,6 +10,7 @@ import RecentProducts from "../../Components/RecentProducts/RecentProducts";
 import DeliveryPoints from "../../Components/DeliveryPoints/DeliveryPoints";
 import BecomeDealer from "../../Components/BecomeDealer/BecomeDealer";
 import Brands from "../../Components/Brands/Brands";
+import Discount from "../../Components/Discount/Discount";
 
 const Home = () => {
   return (
@@ -28,6 +29,7 @@ const Home = () => {
       <DeliveryPoints />
       <BecomeDealer />
       <Brands />
+      <Discount />
     </Fragment>
   );
 };
