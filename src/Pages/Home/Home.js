@@ -9,6 +9,7 @@ import About from "../../Components/About/About";
 import RecentProducts from "../../Components/RecentProducts/RecentProducts";
 import DeliveryPoints from "../../Components/DeliveryPoints/DeliveryPoints";
 import BecomeDealer from "../../Components/BecomeDealer/BecomeDealer";
+import Brands from "../../Components/Brands/Brands";
 
 const Home = () => {
   return (
@@ -26,6 +27,7 @@ const Home = () => {
       <RecentProducts />
       <DeliveryPoints />
       <BecomeDealer />
+      <Brands />
     </Fragment>
   );
 };
