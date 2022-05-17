@@ -11,6 +11,7 @@ import DeliveryPoints from "../../Components/DeliveryPoints/DeliveryPoints";
 import BecomeDealer from "../../Components/BecomeDealer/BecomeDealer";
 import Brands from "../../Components/Brands/Brands";
 import Discount from "../../Components/Discount/Discount";
+import MailList from "../../Components/MailList/MailList";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
       <BecomeDealer />
       <Brands />
       <Discount />
+      <MailList />
     </Fragment>
   );
 };

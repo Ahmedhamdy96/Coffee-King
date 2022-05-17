@@ -1,0 +1,66 @@
+.mailContainer {
+  background-color: #c0aa83;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  margin-bottom: 200px;
+}
+
+.mailContainer h3 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.mailContainer h3 span {
+  color: #fff;
+}
+
+.subBox {
+  display: flex;
+  padding: 5px;
+  height: 65px;
+}
+.subBox input {
+  border: none;
+  width: 100%;
+  outline: none;
+  padding: 0 20px;
+}
+.subBox .subBtn {
+  border: 2px solid transparent;
+  background-color: #242424;
+}
+
+.subBox .subBtn:hover {
+  color: #242424;
+  border: 2px solid #242424;
+  background-color: transparent;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialIcons .iconBox {
+  display: block;
+
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  margin: 5px;
+  font-size: 20px;
+  background-color: #d3c4a8;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.socialIcons .iconBox:hover {
+  background-color: #d9ccb5;
+  font-size: 30px;
+}
