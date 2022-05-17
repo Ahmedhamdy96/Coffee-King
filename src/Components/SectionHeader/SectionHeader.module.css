@@ -27,3 +27,29 @@
   font-weight: bold;
   color: #ffffff;
 }
+
+@media only screen and (max-width: 800px) {
+  .sectionHeader .backTitle {
+    font-weight: bold;
+    font-size: 100px;
+    position: relative;
+    color: #2e2e2e;
+  }
+
+  .sectionHeader .frontUp {
+    position: relative;
+    bottom: 120px;
+    font-weight: bold;
+    font-size: 20px;
+    font-weight: bold;
+    color: #c0aa83;
+  }
+
+  .sectionHeader .frontDown {
+    position: relative;
+    bottom: 135px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+}

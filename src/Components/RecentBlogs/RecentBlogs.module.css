@@ -1,0 +1,21 @@
+.posts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.posts > div {
+  flex: 1;
+}
+
+.btn {
+  color: #c0aa83;
+  background-color: transparent;
+  margin: 50px auto;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #000;
+}
