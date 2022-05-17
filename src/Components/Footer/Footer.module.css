@@ -1,0 +1,115 @@
+.footer {
+  background: url("./../../imgs/footer_map.png"), rgba(0, 0, 0, 0.8);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.cpy {
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 70px;
+  /* padding: 20px 0; */
+}
+
+.cpy > div {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.cpy > div p:first-child {
+  margin: 0;
+  padding: 0;
+  margin-left: 40%;
+}
+
+.cpy span {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+  color: #000;
+  background-color: #c0aa83;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.cpy span p {
+  margin: 0;
+}
+
+.content {
+  margin-top: 150px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.content > div {
+  height: 300px;
+  color: #8e8e8e;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+}
+
+.content > div:first-of-type p {
+  margin: 50px 0;
+}
+
+.content button {
+  color: #000;
+}
+
+.content h3 {
+  font-weight: bold;
+  color: #c0aa83;
+  margin-bottom: 50px;
+}
+
+.content .links {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  color: #fff;
+  font-weight: bold;
+}
+
+.links p {
+  /* width: 50%; */
+  flex-basis: 50%;
+}
+
+.contacts {
+  color: #8e8e8e;
+}
+
+.contacts .icon {
+  color: #c0aa83;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.contacts p:nth-child(3) {
+  color: #fff;
+}
+
+.contacts p:nth-child(4) {
+  color: #fff;
+}

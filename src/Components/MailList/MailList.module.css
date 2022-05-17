@@ -6,6 +6,9 @@
   padding: 50px;
   margin-bottom: 200px;
   flex-wrap: wrap;
+  z-index: 55555;
+  position: relative;
+  top: 290px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -72,5 +75,5 @@
 
 .socialIcons .iconBox:hover {
   background-color: #d9ccb5;
-  font-size: 30px;
+  font-size: 25px;
 }
