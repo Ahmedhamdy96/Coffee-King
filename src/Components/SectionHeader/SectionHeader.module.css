@@ -1,55 +1,66 @@
 .sectionHeader {
   text-align: center;
   position: relative;
-  color: red;
 }
 
 .sectionHeader .backTitle {
   font-weight: bold;
-  font-size: 150px;
+  font-size: 15rem;
   position: relative;
-  color: #2e2e2e;
+  color: var(--color-gray-dark);
 }
 
 .sectionHeader .frontUp {
   position: relative;
-  bottom: 170px;
+  bottom: 17rem;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
-  color: #c0aa83;
+  color: var(--color-main);
 }
 
 .sectionHeader .frontDown {
   position: relative;
-  bottom: 180px;
-  font-size: 40px;
+  bottom: 18rem;
+  font-size: 4rem;
   font-weight: bold;
-  color: #ffffff;
+  color: var(--color-white);
 }
 
-@media only screen and (max-width: 800px) {
+/* start responsive */
+
+/* <800px */
+@media only screen and (max-width: 50em) {
   .sectionHeader .backTitle {
     font-weight: bold;
-    font-size: 100px;
+    font-size: 10rem;
     position: relative;
-    color: #2e2e2e;
+    color: var(--color-gray-dark);
   }
 
   .sectionHeader .frontUp {
     position: relative;
-    bottom: 120px;
+    bottom: 12rem;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 2rem;
     font-weight: bold;
-    color: #c0aa83;
+    color: var(--color-main);
   }
 
   .sectionHeader .frontDown {
     position: relative;
-    bottom: 135px;
-    font-size: 40px;
+    bottom: 13.5rem;
+    font-size: 4rem;
     font-weight: bold;
-    color: #ffffff;
+    color: var(--color-white);
+  }
+}
+
+/* <600px */
+@media only screen and (max-width: 37.5em) {
+  .sectionHeader {
+    height: 10rem;
+    margin-bottom: 6rem;
+    margin-top: -10rem;
   }
 }

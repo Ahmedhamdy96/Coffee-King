@@ -49,10 +49,10 @@ const About = () => {
             vehicula odio. Donec pulvinar tellus egetmagna aliquet ultricies.
             Praesent gravida hendrerit ex, nec eleifend sem convallis vitae.
           </p>
-          <img src={signature} alt="signature" />
+          <img src={signature} className={style.signature} alt="signature" />
         </Col>
         {/* feature section */}
-        <Col sm={12} lg={6}>
+        <Col sm={12} lg={6} className={style.features}>
           <Row>
             {features.map((feature, id) => (
               <Col sm={12} md={6} lg={6} key={feature.id}>

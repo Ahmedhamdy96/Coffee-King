@@ -1,5 +1,7 @@
 import React from "react";
 import { NavDropdown } from "react-bootstrap";
+import style from "./Navigation.module.css";
+
 const NavigationItem = ({ name }) => {
   return (
     <NavDropdown title={name} id="basic-nav-dropdown">

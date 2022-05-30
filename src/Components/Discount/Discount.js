@@ -30,9 +30,14 @@ const Discount = () => {
               tincidunt. Maecenas a eros finibus, condimentum tortoreget, auctor
               nunc. Aenean a efficitur leo.
             </p>
-            <Btn> Get now</Btn>
+            <Btn className={style.getBtn}> Get now</Btn>
           </Col>
-          <Col style={{ overflow: "hidden" }} sm={12} md={6}>
+          <Col
+            className={style.imgContainer}
+            style={{ overflow: "hidden" }}
+            sm={12}
+            md={6}
+          >
             <img src={bg} alt="discount background" style={{ Width: "100%" }} />
           </Col>
         </Row>

@@ -48,11 +48,9 @@ const DeliveryPoints = () => {
                 <IoIosArrowForward style={{ color: "#c0aa83" }} /> Algera
               </p>
             </div>
-            <Btn> View all points </Btn>
+            <Btn className={style.viewAll}> View all points </Btn>
           </Col>
-          <Col className={style.right} sm={12} md={6}>
-            {" "}
-          </Col>
+          <Col className={style.right} sm={12} md={6}></Col>
         </Row>
       </Container>
     </Fragment>

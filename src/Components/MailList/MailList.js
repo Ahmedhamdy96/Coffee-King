@@ -2,10 +2,8 @@ import Btn from "./../UI/Btn/Btn";
 import React from "react";
 import style from "./MailList.module.css";
 
-import { BsTwitter } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa";
-import { BsInstagram } from "react-icons/bs";
-import { FaGooglePlusG } from "react-icons/fa";
+import { BsTwitter, BsInstagram } from "react-icons/bs";
+import { FaFacebookF, FaGooglePlusG } from "react-icons/fa";
 
 const MailList = () => {
   return (

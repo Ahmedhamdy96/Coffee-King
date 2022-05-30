@@ -21,15 +21,13 @@ const SectionHeader = ({
         className={style.frontUp}
         style={{ color: frontUpColor ? frontUpColor : "" }}
       >
-        {" "}
-        {frontUp}{" "}
+        {frontUp}
       </p>
       <h2
         className={style.frontDown}
         style={{ color: frontDownColor ? frontDownColor : "" }}
       >
-        {" "}
-        {frontDown}{" "}
+        {frontDown}
       </h2>
     </div>
   );

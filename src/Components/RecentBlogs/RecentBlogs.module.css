@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 .posts > div {
@@ -10,12 +10,13 @@
 }
 
 .btn {
-  color: #c0aa83;
+  font-size: 1.5rem;
+  color: var(--color-main);
   background-color: transparent;
-  margin: 50px auto;
+  margin: 5rem auto;
 }
 
 .btn:hover {
-  color: #fff;
-  background-color: #000;
+  color: var(--color-white);
+  background-color: var(--color-black);
 }

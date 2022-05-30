@@ -1,14 +1,13 @@
 .card {
-  /* margin-bottom: 30px; */
-  height: 600px;
+  height: 60rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .card .imgContainer {
-  height: 300px;
-  margin-bottom: 35px;
+  height: 30rem;
+  margin-bottom: 3.5rem;
   overflow: hidden;
 }
 
@@ -20,17 +19,31 @@
 }
 
 .card h3 {
+  font-size: 3rem;
   font-weight: bold;
-  color: #c0aa83;
+  color: var(--color-main);
+}
+
+.card p {
+  font-size: 1.5rem;
 }
 
 .details {
-  padding: 5px 20px;
-  background-color: #f6f6f6;
+  padding: 0.5rem 2rem;
+  background-color: var(--color-post-card-footer);
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
+}
+
+.details > div:last-child {
+  font-size: 1.5rem;
+}
+
+.deteMonth,
+.dateYear {
+  font-size: 1.2rem;
 }
 
 .details > div:first-child {
@@ -39,16 +52,38 @@
 }
 .details .day {
   font-weight: bold;
-  color: #c0aa83;
-  font-size: 40px;
-  margin-right: 20px;
+  color: var(--color-main);
+  font-size: 4rem;
+  margin-right: 2rem;
   transition: 0.5s;
 }
 
 .details:hover .day {
-  color: #000;
+  color: var(--color-black);
 }
 
 .card:hover img {
   transform: scale(1.1);
 }
+
+/* start responsive */
+/* <800px */
+@media (max-width: 50rem) {
+  .card {
+    height: 55rem;
+  }
+  .card h3 {
+    font-size: 1.8rem;
+  }
+  .card p {
+    font-size: 1.2rem;
+  }
+  .details .day {
+    margin-right: 0.5rem;
+  }
+  .details {
+    gap: 1rem;
+  }
+}
+
+/* end responsive */

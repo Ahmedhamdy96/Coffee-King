@@ -5,10 +5,7 @@
   background-size: cover;
   background-attachment: fixed;
 }
-@media only screen and (max-width: 767px) {
-  .sectionHome {
-  }
-}
+
 .homeLogo {
   position: absolute;
   width: 60%;
@@ -25,6 +22,7 @@
 }
 
 .cta {
+  font-size: 2rem;
   position: absolute;
   left: 50%;
   top: 50%;

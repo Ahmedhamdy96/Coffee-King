@@ -18,8 +18,8 @@ const PostCard = ({ img, title, desc, views, date }) => {
         <div>
           <div className={style.day}> {date.day} </div>
           <div>
-            <div>{date.month}</div>
-            <div> {date.age} </div>
+            <div className={style.deteMonth}>{date.month}</div>
+            <div className={style.dateYear}> {date.age} </div>
           </div>
         </div>
         <div>

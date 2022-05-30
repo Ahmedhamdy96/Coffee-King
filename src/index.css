@@ -1,20 +1,49 @@
-/* custom nav */
+/* start global variables */
+:root {
+  --color-black: #000;
+  --color-gray-dark: #242424;
+  --color-gray-light: #8e8e8e;
+  --color-white: #fff;
+  --color-main: #c0aa83;
+  --color-main-dark: #947e58;
+  --color-main-light-1: #d3c4a8;
+  --color-main-light-2: #d9ccb5;
+  --color-mobile-nav-bg: #a29070a3;
+  --color-link-active: #ffe7bb;
+  --color-post-card-footer: #f6f6f6;
+}
+
+/* end global variables */
+
 * {
   transition: all 0.3;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+}
+
 .nav-link {
-  color: #fff !important;
+  color: var(--color-white) !important;
+  font-size: 2rem;
 }
 
 .navbar-light .navbar-toggler {
   color: transparent !important;
   border-color: none;
+  font-size: 3rem;
+
+  z-index: 555555;
 }
 
 .navbar-toggler ~ .navbar-collapse.collapse.show {
   position: relative;
   z-index: 3000;
-  background-color: #a29070a3;
+  background-color: var(--color-mobile-nav-bg);
+
   backdrop-filter: blur(3px);
 
   border-radius: 10px;
@@ -22,6 +51,7 @@
 }
 
 .dropdown-menu.show {
+  font-size: 2rem;
   background-color: #dac9ab;
   margin-right: 10px;
   box-shadow: 2px 0px 10px 0px rgb(68 68 68);
@@ -38,9 +68,5 @@
 }
 
 .dropdown-menu.show a:focus {
-  background-color: #ffe7bb;
-}
-
-.swiper {
-  position: relative;
+  background-color: var(--color-link-active);
 }

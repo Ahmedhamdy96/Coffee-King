@@ -2,6 +2,8 @@ import React, { useRef } from "react";
 import SectionHeader from "../SectionHeader/SectionHeader";
 
 import style from "./RecentProducts.module.css";
+
+import "./Slider.css";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -87,58 +89,86 @@ const RecentProducts = () => {
   ];
 
   return (
-    <div style={{ backgroundColor: "#242424", padding: "100px 0" }}>
-      <SectionHeader
-        backTitle={"Products"}
-        frontUp={"choose your coffee"}
-        frontDown={"Recent Products"}
-      />
+    <div style={{ backgroundColor: "#242424", padding: "5rem 0px 2rem 0px" }}>
+      <div className={style.sectionTitle}>
+        <SectionHeader
+          backTitle={"Products"}
+          frontUp={"choose your coffee"}
+          frontDown={"Recent Products"}
+        />
+      </div>
+      <div>
+        {/* start swiper slider  */}
+        <div className="test">
+          <Swiper
+            loop={true}
+            className="swiper-container"
+            ref={swiperRef}
+            slidesPerView={1}
+            modules={[Navigation]}
+            navigation={{
+              prevEl: ".prev",
+              nextEl: ".next",
+            }}
+            onInit={(swiper) => {
+              swiper.params.navigation.prevEl = prevRef.current;
+              swiper.params.navigation.nextEl = nextRef.current;
+              swiper.navigation.init();
+              swiper.navigation.update();
+            }}
+            // responsive
+            breakpoints={{
+              // when window width is >= 768px
+              600: {
+                width: 700,
+                slidesPerView: 2,
+              },
+              800: {
+                width: 1000,
+                slidesPerView: 3,
+              },
+              1200: {
+                width: 1300,
+                slidesPerView: 4,
+              },
+              1300: {
+                width: 1400,
+                slidesPerView: 4,
+              },
+            }}
+          >
+            {products.map((product) => {
+              return (
+                <SwiperSlide key={product.id} style={{ margin: "auto" }}>
+                  <ProductCard
+                    img={product.img}
+                    name={product.name}
+                    desc={product.desc}
+                    price={product.price}
+                  />
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
+          {/* prev and next */}
+          <div
+            ref={prevRef}
+            className="prev"
+            onClick={() => swiperRef.current.swiper.slidePrev()}
+          >
+            <FaChevronLeft />
+          </div>
+          <div
+            ref={nextRef}
+            className="next"
+            onClick={() => swiperRef.current.swiper.slideNext()}
+          >
+            <FaChevronRight />
+          </div>
+          {/* pren and next */}
+        </div>
 
-      {/* <Container> */}
-      <div className={style.sliderContainer}>
-        <Swiper
-          ref={swiperRef}
-          spaceBetween={100}
-          slidesPerView={4}
-          modules={[Navigation]}
-          navigation={{
-            prevEl: prevRef.current,
-            nextEl: nextRef.current,
-          }}
-          onInit={(swiper) => {
-            swiper.params.navigation.prevEl = prevRef.current;
-            swiper.params.navigation.nextEl = nextRef.current;
-            swiper.navigation.init();
-            swiper.navigation.update();
-          }}
-        >
-          {products.map((product) => {
-            return (
-              <SwiperSlide key={product.id}>
-                <ProductCard
-                  img={product.img}
-                  name={product.name}
-                  desc={product.desc}
-                  price={product.price}
-                />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-        <div
-          ref={prevRef}
-          className={style.prev}
-          onClick={() => swiperRef.current.swiper.slidePrev()}
-        >
-          <FaChevronLeft />
-        </div>
-        <div
-          ref={nextRef}
-          className={style.next}
-          onClick={() => swiperRef.current.swiper.slideNext()}
-        >
-          <FaChevronRight />
-        </div>
+        {/* end swiper slider  */}
       </div>
       <Btn className={style.viewAllBtn}> View all products</Btn>
       {/* </Container> */}

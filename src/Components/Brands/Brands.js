@@ -14,7 +14,7 @@ const Brands = () => {
   return (
     <Fragment>
       <Container>
-        <Row style={{ padding: "50px 0" }}>
+        <Row className="text-center" style={{ padding: "50px 0" }}>
           {brands.map((brand, id) => (
             <Col key={id}>
               <img src={brand} />
