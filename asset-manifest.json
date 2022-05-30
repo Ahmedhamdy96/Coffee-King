@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Coffee-King-/static/css/main.c629abcd.css",
+    "main.js": "/Coffee-King-/static/js/main.87cdded9.js",
+    "static/media/coffee-parallax-2.png": "/Coffee-King-/static/media/coffee-parallax-2.86f7801c63a7a08861a7.png",
+    "static/media/coffe_back.png": "/Coffee-King-/static/media/coffe_back.34d4397f6b1e8bb903cd.png",
+    "static/media/about-bg.png": "/Coffee-King-/static/media/about-bg.04668caedb5ea9133b44.png",
+    "static/media/blog2-770x570.jpg": "/Coffee-King-/static/media/blog2-770x570.3d28a6a71326bf7e392d.jpg",
+    "static/media/coffee-cup-1.png": "/Coffee-King-/static/media/coffee-cup-1.354a3dc66981bdab64cf.png",
+    "static/media/blog3-770x570.jpg": "/Coffee-King-/static/media/blog3-770x570.31ea5c9a3eb70f578e17.jpg",
+    "static/media/blog1-770x570.jpg": "/Coffee-King-/static/media/blog1-770x570.44e793344a5f4e39626f.jpg",
+    "static/media/footer_map.png": "/Coffee-King-/static/media/footer_map.7adaa9f5a16ed152a7e0.png",
+    "static/media/coffee_cut_long.png": "/Coffee-King-/static/media/coffee_cut_long.a29836c3af9a56b19606.png",
+    "static/media/discount-bg.png": "/Coffee-King-/static/media/discount-bg.b0a8a18fb5c4c6a61270.png",
+    "static/media/home-2-logo-1.png": "/Coffee-King-/static/media/home-2-logo-1.60bd768e0a446a75fa23.png",
+    "static/media/map.png": "/Coffee-King-/static/media/map.11573fb7c49cc860f8af.png",
+    "static/media/card.png": "/Coffee-King-/static/media/card.cc76ee9782a035e3c228.png",
+    "static/media/logo_white-7.png": "/Coffee-King-/static/media/logo_white-7.3bd670047a114ff80c28.png",
+    "index.html": "/Coffee-King-/index.html",
+    "main.c629abcd.css.map": "/Coffee-King-/static/css/main.c629abcd.css.map",
+    "main.87cdded9.js.map": "/Coffee-King-/static/js/main.87cdded9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c629abcd.css",
+    "static/js/main.87cdded9.js"
+  ]
+}
