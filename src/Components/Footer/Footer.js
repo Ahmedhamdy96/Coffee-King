@@ -2,7 +2,6 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import style from "./Footer.module.css";
 import { FaArrowUp, FaPhoneAlt, FaEnvelope, FaSkype } from "react-icons/fa";
-import logo from "./../../imgs/logo_white-7.png";
 
 import { IoIosArrowForward } from "react-icons/io";
 import { IoLocationSharp } from "react-icons/io5";
@@ -18,7 +17,7 @@ const Footer = () => {
         <Container>
           <Row>
             <Col sm={12} md={4} lg={4}>
-              <img src={logo} alt="logo" />
+              <img src={require("./../../imgs/logo_white-7.png")} alt="logo" />
               <p>
                 Pellentesque congue non augue vitae pellentesque. Morbi
                 sollicitudin eleifend rhoncus. Mauris vel nisl a massa viverra

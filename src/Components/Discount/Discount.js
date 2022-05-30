@@ -1,9 +1,7 @@
 import React, { Fragment } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import style from "./Discount.module.css";
-import bg from "./../../imgs/coffe_back.png";
 import Btn from "./../UI/Btn/Btn";
-import card from "./../../imgs/card.png";
 
 const Discount = () => {
   return (
@@ -23,7 +21,7 @@ const Discount = () => {
 
             <h2>Get your discount</h2>
 
-            <img src={card} alt="Discount card " />
+            <img src={require("./../../imgs/card.png")} alt="Discount card " />
 
             <p>
               Morbi malesuada dui in iaculis lacinia. Duis laoreet ut liberonec
@@ -38,7 +36,11 @@ const Discount = () => {
             sm={12}
             md={6}
           >
-            <img src={bg} alt="discount background" style={{ Width: "100%" }} />
+            <img
+              src={require("./../../imgs/coffe_back.png")}
+              alt="discount background"
+              style={{ Width: "100%" }}
+            />
           </Col>
         </Row>
       </Container>

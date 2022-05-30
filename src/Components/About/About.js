@@ -9,6 +9,8 @@ import icon4 from "./../../imgs/about-icon-4.png";
 
 import style from "./About.module.css";
 
+import { motion } from "framer-motion";
+
 const About = () => {
   const features = [
     {
@@ -43,27 +45,49 @@ const About = () => {
         {/* about section */}
         <Col className={style.about} sm={12} lg={6}>
           <h3 className={style.h3}> Who are we ? </h3>
-          <h2 className={style.h2}> About Market </h2>
-          <p className={style.p}>
+          <motion.h2
+            initial={{ x: -100 }}
+            whileInView={{ x: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            className={style.h2}
+          >
+            {" "}
+            About Market{" "}
+          </motion.h2>
+          <motion.p
+            initial={{ x: -100 }}
+            whileInView={{ x: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            className={style.p}
+          >
             Sed sagittis sodales lobortis. Curabitur in eleifend turpis, id
             vehicula odio. Donec pulvinar tellus egetmagna aliquet ultricies.
             Praesent gravida hendrerit ex, nec eleifend sem convallis vitae.
-          </p>
+          </motion.p>
           <img src={signature} className={style.signature} alt="signature" />
         </Col>
         {/* feature section */}
         <Col sm={12} lg={6} className={style.features}>
-          <Row>
-            {features.map((feature, id) => (
-              <Col sm={12} md={6} lg={6} key={feature.id}>
-                <Feature
-                  name={feature.name}
-                  desc={feature.desc}
-                  img={feature.img}
-                />
-              </Col>
-            ))}
-          </Row>
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.5 }}
+          >
+            <Row>
+              {features.map((feature, id) => (
+                <Col sm={12} md={6} lg={6} key={feature.id}>
+                  <Feature
+                    name={feature.name}
+                    desc={feature.desc}
+                    img={feature.img}
+                  />
+                </Col>
+              ))}
+            </Row>
+          </motion.div>
         </Col>
       </Row>
     </Container>

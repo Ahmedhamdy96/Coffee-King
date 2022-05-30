@@ -2,8 +2,8 @@ import React, { Fragment } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import style from "./BecomeDealer.module.css";
 
-import cupImg from "./../../imgs/coffee-cup-1.png";
 import Btn from "./../UI/Btn/Btn";
+import { motion } from "framer-motion";
 
 const BecomeDealer = () => {
   return (
@@ -11,7 +11,11 @@ const BecomeDealer = () => {
       <Container>
         <Row>
           <Col className={style.left} sm={12} md={6}>
-            <div
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
               style={{
                 display: "flex",
                 justifyContent: "space-between",
@@ -27,23 +31,31 @@ const BecomeDealer = () => {
               </div>
               <div>
                 <img
-                  src={cupImg}
+                  src={require("./../../imgs/coffee-cup-1.png")}
                   style={{ width: "100%" }}
                   alt="coffee cup image"
                 />
               </div>
-            </div>
+            </motion.div>
           </Col>
           <Col className={style.right} sm={12} md={6}>
-            <h2> Become our dealer</h2>
-            <p>
-              Curabitur sollicitudin ultrices tortor, eget pulvinar risus cursus
-              eu. Vivamus sit amet odio massa. Vivamus dapibus elementum tellus
-              nec fermentum. Sed blandit condimentum molestie. In hac habitasse
-              platea dictumst. Etiam fringilla a elit at ornare.
-            </p>
-            <Btn>Become a dealer </Btn>
-            <Btn>Contact us </Btn>
+            <motion.div
+              initial={{ x: 100 }}
+              whileInView={{ x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 1 }}
+            >
+              <h2> Become our dealer</h2>
+              <p>
+                Curabitur sollicitudin ultrices tortor, eget pulvinar risus
+                cursus eu. Vivamus sit amet odio massa. Vivamus dapibus
+                elementum tellus nec fermentum. Sed blandit condimentum
+                molestie. In hac habitasse platea dictumst. Etiam fringilla a
+                elit at ornare.
+              </p>
+              <Btn>Become a dealer </Btn>
+              <Btn>Contact us </Btn>
+            </motion.div>
           </Col>
         </Row>
       </Container>

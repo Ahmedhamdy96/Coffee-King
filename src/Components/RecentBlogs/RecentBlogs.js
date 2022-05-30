@@ -4,17 +4,13 @@ import SectionHeader from "./../SectionHeader/SectionHeader";
 
 import style from "./RecentBlogs.module.css";
 
-import img1 from "./../../imgs/blog1-770x570.jpg";
-import img2 from "./../../imgs/blog2-770x570.jpg";
-import img3 from "./../../imgs/blog3-770x570.jpg";
-
 import Btn from "./../../Components/UI/Btn/Btn";
 import { Row } from "react-bootstrap";
 
 let posts = [
   {
     id: 1,
-    img: img1,
+    img: require("./../../imgs/blog1-770x570.jpg"),
     title: "History of coffee",
     desc: "Integer maximus accumsan nunc, sit amet tempor lectus facilisis eu. Cras vel elit felis. Vestibulum convallis ipsum id aliquam varius. Etiam nec laoreet ...",
     postDate: { day: "25", month: "septamber", age: "2022" },
@@ -22,7 +18,7 @@ let posts = [
   },
   {
     id: 2,
-    img: img2,
+    img: require("./../../imgs/blog2-770x570.jpg"),
     title: "About Americano coffee",
     desc: "Vivamus tristique ligula quis orci malesuada tincidunt. Praesent magna purus, pharetra eu eleifend non, euismod vitae leo. Interdum et malesuada fames ac ante ...",
     postDate: { day: "25", month: "septamber", age: "2022" },
@@ -30,7 +26,7 @@ let posts = [
   },
   {
     id: 3,
-    img: img3,
+    img: require("./../../imgs/blog3-770x570.jpg"),
     title: "Coffee roasts guide",
     desc: "In efficitur, leo non commodo lacinia, odio metus sodales purus, sed consequat lectus mi in purus. Vivamus vitae metus et nisl egestas sollicitudin. Quisque ...",
     postDate: { day: "25", month: "septamber", age: "2022" },

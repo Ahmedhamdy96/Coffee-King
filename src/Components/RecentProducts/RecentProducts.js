@@ -11,10 +11,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import ProductCard from "../ProductCard/ProductCard";
 
-import img1 from "./../../imgs/coffee_item1-300x300.jpg";
-import img2 from "./../../imgs/coffee_item2-300x300.jpg";
-import img3 from "./../../imgs/coffee_item3-300x300.jpg";
-import img4 from "./../../imgs/coffee_item4-300x300.jpg";
 import { Container } from "react-bootstrap";
 import "swiper/css/navigation";
 // import required modules
@@ -34,28 +30,28 @@ const RecentProducts = () => {
       name: "American Black Coffee",
       desc: "product description text ",
       price: "26.99",
-      img: img1,
+      img: require("./../../imgs/coffee_item1-300x300.jpg"),
     },
     {
       id: 2,
       name: "Ground Coffee",
       desc: "product description text ",
       price: "45.30",
-      img: img2,
+      img: require("./../../imgs/coffee_item2-300x300.jpg"),
     },
     {
       id: 3,
       name: "Coffee Beans",
       desc: "product description text ",
       price: "90.99",
-      img: img3,
+      img: require("./../../imgs/coffee_item3-300x300.jpg"),
     },
     {
       id: 4,
       name: "Accessories",
       desc: "product description text ",
       price: "265.29",
-      img: img4,
+      img: require("./../../imgs/coffee_item4-300x300.jpg"),
     },
 
     {
@@ -63,28 +59,28 @@ const RecentProducts = () => {
       name: "American Black Coffee",
       desc: "product description text ",
       price: "26.99",
-      img: img1,
+      img: require("./../../imgs/coffee_item1-300x300.jpg"),
     },
     {
       id: 6,
       name: "Ground Coffee",
       desc: "product description text ",
       price: "45.30",
-      img: img2,
+      img: require("./../../imgs/coffee_item2-300x300.jpg"),
     },
     {
       id: 7,
       name: "Coffee Beans",
       desc: "product description text ",
       price: "90.99",
-      img: img3,
+      img: require("./../../imgs/coffee_item3-300x300.jpg"),
     },
     {
       id: 8,
       name: "Accessories",
       desc: "product description text ",
       price: "265.29",
-      img: img4,
+      img: require("./../../imgs/coffee_item4-300x300.jpg"),
     },
   ];
 
@@ -171,7 +167,6 @@ const RecentProducts = () => {
         {/* end swiper slider  */}
       </div>
       <Btn className={style.viewAllBtn}> View all products</Btn>
-      {/* </Container> */}
     </div>
   );
 };
