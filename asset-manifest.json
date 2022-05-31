@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Coffee-King/static/css/main.2d602315.css",
-    "main.js": "/Coffee-King/static/js/main.17553653.js",
+    "main.css": "/Coffee-King/static/css/main.2d18a8fd.css",
+    "main.js": "/Coffee-King/static/js/main.ef48700a.js",
     "static/media/coffee-parallax-2.png": "/Coffee-King/static/media/coffee-parallax-2.86f7801c63a7a08861a7.png",
     "static/media/coffe_back.png": "/Coffee-King/static/media/coffe_back.34d4397f6b1e8bb903cd.png",
     "static/media/about-bg.png": "/Coffee-King/static/media/about-bg.04668caedb5ea9133b44.png",
@@ -17,11 +17,11 @@
     "static/media/card.png": "/Coffee-King/static/media/card.cc76ee9782a035e3c228.png",
     "static/media/logo_white-7.png": "/Coffee-King/static/media/logo_white-7.3bd670047a114ff80c28.png",
     "index.html": "/Coffee-King/index.html",
-    "main.2d602315.css.map": "/Coffee-King/static/css/main.2d602315.css.map",
-    "main.17553653.js.map": "/Coffee-King/static/js/main.17553653.js.map"
+    "main.2d18a8fd.css.map": "/Coffee-King/static/css/main.2d18a8fd.css.map",
+    "main.ef48700a.js.map": "/Coffee-King/static/js/main.ef48700a.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d602315.css",
-    "static/js/main.17553653.js"
+    "static/css/main.2d18a8fd.css",
+    "static/js/main.ef48700a.js"
   ]
 }
