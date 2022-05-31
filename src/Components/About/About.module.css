@@ -11,7 +11,7 @@
 }
 
 .h2 {
-  font-size: 4.5rem;
+  font-size: var(--h2-size);
   font-weight: bold;
 }
 
@@ -19,7 +19,7 @@
   width: 90%;
   line-height: 1.6;
   margin: 2rem 0;
-  font-size: 2rem;
+  font-size: var(--p-size);
 }
 
 @media (max-width: 37.5em) {
@@ -44,7 +44,6 @@
   }
 
   .h2 {
-    font-size: 4.5rem;
     font-weight: bold;
     text-align: center;
   }
@@ -53,7 +52,7 @@
     width: 100%;
     line-height: 1.6;
     margin: 2rem 0;
-    font-size: 2rem;
+
     padding: 0 2rem;
     text-align: center;
   }

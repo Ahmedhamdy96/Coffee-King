@@ -5,7 +5,8 @@
 
 .sectionHeader .backTitle {
   font-weight: bold;
-  font-size: 15rem;
+  /* font-size: 15rem; */
+  font-size: var(--section-header-b-size);
   position: relative;
   color: var(--color-gray-dark);
 }
@@ -14,7 +15,8 @@
   position: relative;
   bottom: 17rem;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: var(--section-header-fu-size);
+
   font-weight: bold;
   color: var(--color-main);
 }
@@ -22,7 +24,7 @@
 .sectionHeader .frontDown {
   position: relative;
   bottom: 18rem;
-  font-size: 4rem;
+  font-size: var(--section-header-fd-size);
   font-weight: bold;
   color: var(--color-white);
 }
@@ -33,7 +35,6 @@
 @media only screen and (max-width: 50em) {
   .sectionHeader .backTitle {
     font-weight: bold;
-    font-size: 10rem;
     position: relative;
     color: var(--color-gray-dark);
   }
@@ -42,7 +43,6 @@
     position: relative;
     bottom: 12rem;
     font-weight: bold;
-    font-size: 2rem;
     font-weight: bold;
     color: var(--color-main);
   }
@@ -50,7 +50,6 @@
   .sectionHeader .frontDown {
     position: relative;
     bottom: 13.5rem;
-    font-size: 4rem;
     font-weight: bold;
     color: var(--color-white);
   }

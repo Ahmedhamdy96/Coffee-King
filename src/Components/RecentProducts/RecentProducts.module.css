@@ -30,7 +30,7 @@
 }
 
 .viewAllBtn {
-  font-size: 1.5rem;
+  font-size: var(--btn-size);
   margin: 10rem auto;
   color: var(--color-main);
   background-color: transparent;

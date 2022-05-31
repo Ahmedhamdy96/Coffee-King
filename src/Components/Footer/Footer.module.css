@@ -20,7 +20,7 @@
   height: 100%;
   display: flex;
   align-items: center;
-  font-size: 1.5rem;
+  font-size: var(--p-size);
 }
 
 .cpy span:hover {
@@ -54,7 +54,8 @@
 }
 
 .content {
-  font-size: 2rem;
+  /* font-size: 2rem; */
+  font-size: var(--p-size);
   margin: 15rem auto 10rem auto;
   color: var(--color-white);
   display: flex;
@@ -101,7 +102,6 @@
 
 .contacts .icon {
   color: var(--color-main);
-  font-size: 1.8rem;
   margin-right: 1rem;
 }
 
@@ -117,7 +117,6 @@
 /* <1000px */
 @media (max-width: 62.5em) {
   .content {
-    font-size: 1.6rem;
   }
 
   .content h3 {

@@ -3,18 +3,18 @@
 }
 
 .left h2 {
-  font-size: 4rem;
+  font-size: var(--h2-size);
   font-weight: bold;
 }
 
 .left p {
-  font-size: 1.5rem;
+  font-size: var(--p-size);
   line-height: 1.7;
   margin-bottom: 3rem;
 }
 
 .left h3 {
-  font-size: 2.5rem;
+  font-size: var(--h3-size);
   color: var(--color-main);
   margin-bottom: 2rem;
 }
@@ -31,7 +31,7 @@
   margin-bottom: 1rem;
 }
 .left .viewAll {
-  font-size: 1.5rem;
+  font-size: var(--btn-size);
 }
 
 .right {
@@ -50,7 +50,6 @@
   }
 
   .left h2 {
-    font-size: 2.8rem;
     margin-bottom: 2rem;
   }
 }

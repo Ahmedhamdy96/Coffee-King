@@ -22,7 +22,7 @@
 }
 
 .cta {
-  font-size: 2rem;
+  font-size: var(--btn-size);
   position: absolute;
   left: 50%;
   top: 50%;

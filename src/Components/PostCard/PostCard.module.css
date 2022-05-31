@@ -19,13 +19,13 @@
 }
 
 .card h3 {
-  font-size: 3rem;
+  font-size: var(--h3-size);
   font-weight: bold;
   color: var(--color-main);
 }
 
 .card p {
-  font-size: 1.5rem;
+  font-size: var(--p-size);
 }
 
 .details {
@@ -73,10 +73,8 @@
     height: 55rem;
   }
   .card h3 {
-    font-size: 1.8rem;
   }
   .card p {
-    font-size: 1.2rem;
   }
   .details .day {
     margin-right: 0.5rem;
