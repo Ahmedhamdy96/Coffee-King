@@ -12,6 +12,7 @@ const DeliveryPoints = () => {
         <Row>
           <Col className={style.left} sm={12} md={6}>
             <motion.div
+              style={{ overflow: "hidden" }}
               initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               viewport={{ once: true }}

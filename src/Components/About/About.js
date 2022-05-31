@@ -46,8 +46,9 @@ const About = () => {
         <Col className={style.about} sm={12} lg={6}>
           <h3 className={style.h3}> Who are we ? </h3>
           <motion.h2
+            style={{ overflow: "hidden" }}
             initial={{ x: -100 }}
-            whileInView={{ x: 1 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             className={style.h2}
@@ -56,8 +57,9 @@ const About = () => {
             About Market{" "}
           </motion.h2>
           <motion.p
+            style={{ overflow: "hidden" }}
             initial={{ x: -100 }}
-            whileInView={{ x: 1 }}
+            whileInView={{ x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 1 }}
             className={style.p}
@@ -71,6 +73,7 @@ const About = () => {
         {/* feature section */}
         <Col sm={12} lg={6} className={style.features}>
           <motion.div
+            style={{ overflow: "hidden" }}
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}

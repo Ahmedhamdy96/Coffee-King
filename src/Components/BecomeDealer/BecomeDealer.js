@@ -40,6 +40,7 @@ const BecomeDealer = () => {
           </Col>
           <Col className={style.right} sm={12} md={6}>
             <motion.div
+              style={{ overflow: "hidden" }}
               initial={{ x: 100 }}
               whileInView={{ x: 0 }}
               viewport={{ once: true }}
