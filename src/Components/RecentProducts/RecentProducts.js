@@ -93,7 +93,7 @@ const RecentProducts = () => {
           frontDown={"Recent Products"}
         />
       </div>
-      <div>
+      <div style={{ overflow: "hidden" }}>
         {/* start swiper slider  */}
         <div className="test">
           <Swiper
