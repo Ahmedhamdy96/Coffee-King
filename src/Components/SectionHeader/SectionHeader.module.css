@@ -60,6 +60,6 @@
   .sectionHeader {
     height: 10rem;
     margin-bottom: 6rem;
-    margin-top: -10rem;
+    margin-top: 0rem;
   }
 }

@@ -23,6 +23,19 @@
   --section-header-fd-size: 4rem; /* section header front down title size*/
 }
 
+@media (max-width: 800px) {
+  :root {
+    --h1-size: 4rem;
+    --h2-size: 2.5rem;
+    --h3-size: 2rem;
+    --p-size: 1.6rem;
+    --btn-size: 1.5rem;
+    --section-header-b-size: 4rem; /* section header back title size*/
+    --section-header-fu-size: 2rem; /* section header front top title size */
+    --section-header-fd-size: 3rem; /* section header front down title size*/
+  }
+}
+
 /* end global variables */
 
 * {
